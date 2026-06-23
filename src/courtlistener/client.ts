@@ -24,7 +24,6 @@ export class CourtListenerClient {
   private rateLimitReset = 0;
 
   constructor(token: string) {
-    if (!token) throw new Error("CourtListener API token is required");
     this.token = token;
   }
 

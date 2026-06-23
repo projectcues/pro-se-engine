@@ -8,7 +8,6 @@ export class RegulationsClient {
   private apiKey: string;
 
   constructor(apiKey: string) {
-    if (!apiKey) throw new Error("Regulations.gov API key is required");
     this.apiKey = apiKey;
   }
 

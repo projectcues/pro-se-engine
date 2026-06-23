@@ -10,7 +10,6 @@ export class CongressClient {
   private apiKey: string;
 
   constructor(apiKey: string) {
-    if (!apiKey) throw new Error("Congress.gov API key is required");
     this.apiKey = apiKey;
   }
 
