@@ -1,6 +1,6 @@
 {
   "name": "pro-se-engine",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +8,9 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "inspect": "npx @modelcontextprotocol/inspector"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
